@@ -1,7 +1,22 @@
-* 
 
-{
+<style>
 
-display:none;
+html {
+
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 
 }
+
+</style>
+
+:root {
+    --base-unit: 0.3125vw;
+  }
+
+  h1 {
+
+font-size: var(--base-unit) * 5;
+line-height: var(--base-unit) * 6 ;
+
+  }
